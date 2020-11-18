@@ -36,8 +36,8 @@
                                             </g>
                                         </svg>
                                         <!--end::Svg Icon--></span><span class="menu-text">Dashboard</span></a>
-                            </li>                            
-                            <!--begin::Referensi-->
+                            </li>                          
+                            <!--begin::Referensi>
 							<li class="menu-section ">
                                 <h4 class="menu-text">Referensi</h4>
                                 <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
@@ -48,9 +48,9 @@
                             </li>                            
                             <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Users Role</span></a>
                             </li>
-                            <!--end::Referensi-->
+                            <!--end::Referensi>
 
-                            <!--begin::Dosen-->         
+                            <!--begin::Dosen>         
                             <li class="menu-section ">
                                 <h4 class="menu-text">Dosen</h4>
                                 <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
@@ -63,8 +63,7 @@
                             </li>                            
                             <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Monitoring</span></a>
                             </li>
-                            <!--end::Dosen-->
-
+                            <end::Dosen-->
                             <!--begin::Master Data-->         
                             <li class="menu-section ">
                                 <h4 class="menu-text">Master Data</h4>
@@ -82,8 +81,7 @@
                             </li>
                             <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Data Kampus Cabang</span></a>
                             </li>
-                            <!--end::Master Data-->
-                                                        
+                            <!--end::Master Data-->                              
                         </ul>
                         <!--end::Menu Nav-->
                     </div>
