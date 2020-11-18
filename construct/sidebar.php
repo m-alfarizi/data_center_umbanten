@@ -64,6 +64,25 @@
                             <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Monitoring</span></a>
                             </li>
                             <!--end::Dosen-->
+
+                            <!--begin::Master Data-->         
+                            <li class="menu-section ">
+                                <h4 class="menu-text">Master Data</h4>
+                                <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+                            </li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="d_mahasiswa.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Data Mahasiswa</span></a>
+                            </li>                            
+							<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="profil.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Data Dosen</span></a>
+							</li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="pengajuan.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Data Pegawai</span></a>
+                            </li>                            
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-file menu-icon"><span></span></i><span class="menu-text">Data Program Studi</span></a>
+                            </li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-book menu-icon"><span></span></i><span class="menu-text">Data Mata Kuliah</span></a>
+                            </li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Data Kampus Cabang</span></a>
+                            </li>
+                            <!--end::Master Data-->
                                                         
                         </ul>
                         <!--end::Menu Nav-->
