@@ -3,8 +3,8 @@
                 <!--begin::Brand-->
                 <div class="brand flex-column-auto " id="kt_brand">
                     <!--begin::Logo-->
-                    <a href="index.html" class="brand-logo">
-                        <img alt="Logo" src="assets/media/logos/logo-light.png" />
+                    <a href="index.php">
+                        <h2>DATA CENTER</h2>
                     </a>
                     <!--end::Logo-->
                     <!--begin::Toggle-->

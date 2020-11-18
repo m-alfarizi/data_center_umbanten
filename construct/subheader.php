@@ -20,8 +20,8 @@
                                     <!--end::logo-h-->
                                     <!--begin::Text-->
                                     <div class="d-flex flex-column flex-grow-1 font-weight-bold">
-                                        <a href="#" class="text-dark text-hover-primary mb-1 font-size-lg">Universitas Muhammadiyah Banten</a>
-                                        <span class="text-muted">Jl. Aria Jaya Santika</span>
+                                        <a href="#" class="text-dark text-hover-primary mb-1 font-size-lg">UNIVERSITAS MUHAMMADIYAH BANTEN</a>
+                                        <span class="text-muted">Jl. Aria Jaya Santika No.KM. 4 no. 40, Pasir Nangka, Tigaraksa Kec., Tangerang, Banten 15720</span>
                                     </div>
                                     <!--end::Text-->
                                 </div>
