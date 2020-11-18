@@ -98,15 +98,14 @@
                                         <span class="form-text text-muted font-size-sm">Allowed file types: png, jpg, jpeg. Size: 100 x 100 px.</span>
                                     </div>
                                 </div>
-
                                 <div class="row">
-                                    <label class="col-3 col-form-label">N I M :</label>
+                                    <label class="col-3 col-form-label">N I K :</label>
                                     <div class="col-9 input-group-sm">
                                         <input type="text" class="form-control" placeholder="" />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <label class="col-3 col-form-label">N I K :</label>
+                                    <label class="col-3 col-form-label">N I M :</label>
                                     <div class="col-9 input-group-sm">
                                         <input type="text" class="form-control" placeholder="" />
                                     </div>
