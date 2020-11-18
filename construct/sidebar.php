@@ -80,7 +80,7 @@
                             </li>                            
 							<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="profil.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Data Dosen</span></a>
 							</li>
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="pengajuan.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Data Pegawai</span></a>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="d_pegawai.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Data Pegawai</span></a>
                             </li>                            
                             <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-file menu-icon"><span></span></i><span class="menu-text">Data Program Studi</span></a>
                             </li>
