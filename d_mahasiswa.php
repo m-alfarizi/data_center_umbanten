@@ -67,7 +67,7 @@
                     <div class="card card-custom example example-compact">
                         <div class="card-header">
                             <h3 class="card-title">
-                                Tambah Data Mahasiswa
+                                Data Mahasiswa
                             </h3>
                             <div class="card-toolbar">
                                 <div class="d-flex align-items-center flex-wrap">
@@ -131,41 +131,153 @@
                                         </div>
                                     </div>                                
                                 </div>
-
                                 <div class="row">
                                     <label class="col-3 col-form-label">Program Studi :</label>
                                     <div class="col-9 input-group-sm">
                                         <select class="form-control">
                                             <option>Pilih Program Studi</option>
-                                            <option></option>
-                                            <option>Sistem Informasi</option>
-                                            <option>Teknik Sipil</option>
+                                            <option>D3 - Manajemen Informatika</option>
+                                            <option>S1 - Sistem Informasi</option>
+                                            <option>S1 - Teknik Informatika</option>
                                         </select>
                                     </div>
                                 </div>
-
                                 <div class="row">
-                                    <label class="col-3 col-form-label">Nomor Seri Kartu Pegawai:</label>
+                                    <label class="col-3 col-form-label">Angkatan :</label>
                                     <div class="col-9 input-group-sm">
                                         <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Kelas :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <select class="form-control">
+                                            <option>Pilih Kelas</option>
+                                            <option>Reguler Pagi</option>
+                                            <option>Reguler Malam</option>
+                                            <option>Shift</option>
+                                            <option>Karyawan</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Kampus Cabang :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <select class="form-control">
+                                            <option>Pilih Kampus</option>
+                                            <option>Kampus Pusat - Serang</option>
+                                            <option>Kampus cabang - Tangerang</option>
+                                            <option>Kampus Cabang - MAUK</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-3 col-form-label">Tempat dan Tgl. Lahir:</label>
-                                    <div class="col-5 input-group-sm">
+                                    <label class="col-3 col-form-label">Tempat dan Tgl. Lahir :</label>
+                                    <div class="col-6 input-group-sm">
                                         <input type="text" class="form-control" placeholder="Tempat" />         
                                     </div>
-                                    <label class="col-1 col-form-label text-right"> / </label>
                                     <div class="col-3 input-group-sm">
-                                        <input type="" class="form-control" placeholder="Tgl. Lahir">
+                                        <input type="date" class="form-control" placeholder="Tgl. Lahir">
                                     </div>
-                                </div>                                                        
+                                </div> 
+                                <div class="row align-items-center mb-1">
+                                    <label class="col-3 col-form-label">Jenis Kelamin:</label>
+                                    <div class="col-9 input-group-sm">
+                                        <div class="radio-inline">
+                                            <label class="radio radio-outline radio-outline-2x radio-primary">
+                                            <input type="radio" name="radios" checked="checked">
+                                            <span></span>Laki-laki</label>
+                                            <label class="radio radio-outline radio-outline-2x radio-primary">
+                                            <input type="radio" name="radios">
+                                            <span></span>Perempuan</label>
+                                        </div>
+                                    </div>                                
+                                </div>   
                                 <div class="row">
-                                    <label class="col-3 col-form-label">Alamat:</label>
+                                    <label class="col-3 col-form-label">Agama :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <select class="form-control">
+                                            <option>Pilih Agama</option>
+                                            <option>Islam</option>
+                                            <option>Protestan</option>
+                                            <option>Katolik</option>
+                                            <option>Hindu</option>
+                                            <option>Buddha</option>
+                                            <option>Khonghucu</option>                                            
+                                        </select>
+                                    </div>
+                                </div>     
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Golongan Darah :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <select class="form-control">
+                                            <option>Pilih Golongan Darah</option>
+                                            <option>A</option>
+                                            <option>B</option>
+                                            <option>AB</option>
+                                            <option>O</option>                                          
+                                        </select>
+                                    </div>
+                                </div>                                                
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Alamat :</label>
                                     <div class="col-9 input-group-sm">
                                         <input type="text" class="form-control" placeholder="" />
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Email :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <input type="text" class="form-control" placeholder="namaemail@tempatdaftar.com" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">No. Kontak :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Pendidikan Asal :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Nama Orangtua (Ayah) :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Jenis Pendaftaran :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <select class="form-control">
+                                            <option>Pilih Jenis Pendaftaran</option>
+                                            <option>Alih Jenjang</option>
+                                            <option>Pindahan</option>
+                                            <option>Mahasiswa Baru</option>                                      
+                                        </select>
+                                    </div>
+                                </div> 
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Tahun Masuk :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label class="col-3 col-form-label">Status :</label>
+                                    <div class="col-9 input-group-sm">
+                                        <select class="form-control">
+                                            <option>Pilih Status</option>
+                                            <option>Aktif</option>
+                                            <option>Tidak Aktif / DO</option>
+                                            <option>Cuti</option>   
+                                            <option>Lulus</option>                                     
+                                        </select>
+                                    </div>
+                                </div> 
                                 <!--div class="row">
                                     <label class="col-3 col-form-label">Pendidikan Terakhir:</label>
                                     <div class="col-9 input-group-sm"> 
@@ -208,33 +320,15 @@
                                     <div class="col-9 input-group-sm">
                                         <input type="email" class="form-control" placeholder="" />
                                     </div>
-                                </div-->
-                                <div class="row">
-                                    <label class="col-3 col-form-label">Unit Kerja:</label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="email" class="form-control" placeholder="Inspektorat Jenderal Kementerian Energi dan Sumber Daya Mineral" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label class="col-3 col-form-label">No. Telp:</label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>                                                                                    
-                                <div class="row">
-                                    <label class="col-3 col-form-label">Email:</label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="email" class="form-control" placeholder="Enter email" />
-                                    </div>
-                                </div>                            
+                                </div-->                           
                             </div>
                             <div class="card-footer">
                                 <div class="row">
                                     <div class="col-3">
                                     </div>
                                     <div class="col-9">
-                                        <button type="" class="btn btn-primary mr-2">Save</button>
-                                        <button type="" class="btn btn-secondary">Cancel</button>
+                                        <button type="" class="btn btn-primary mr-2">Simpan</button>
+                                        <button type="" class="btn btn-secondary">Batal</button>
                                     </div>
                                 </div>
                             </div>
