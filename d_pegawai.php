@@ -7,266 +7,481 @@
 <!--begin::Entry-->
 <div class="d-flex flex-column-fluid">
     <!--begin::Container-->
-    <div class=" container ">
+    <div class="container">
 
-        <!--begin::Profile Account Information-->
-        <div class="d-flex flex-row">
-            <!--begin::Aside-->
-            <div class="flex-row-auto offcanvas-mobile w-250px w-xxl-350px" id="kt_profile_aside">
-                <!--begin::Profile Card-->
-                <div class="card card-custom card-stretch">
-                    <!--begin::Body-->
-                    <div class="card-body pt-4">
-                        <!--begin::Toolbar-->
-
-                        <!--end::Toolbar-->
-                        <!--begin::User-->
-                        <div class="d-flex align-items-center mt-4">
-                            <div class="symbol symbol-60 symbol-xxl-100 mr-5 align-self-start align-self-xxl-center">
-                                <div class="symbol-label" style="background-image:url('dist/assets/media/users/blank.png')"></div>
-                                <i class="symbol-badge bg-success"></i>
-                            </div>
-                            <div>
-                                <a href="#" class="font-weight-bolder font-size-sm text-dark-75 text-hover-primary">
-                                    Nama Dosen
+        <div class="card card-custom example example-compact">
+            <div class="card-header">
+                <h3 class="card-title">
+                    Data Pegawai
+                </h3>
+            </div>
+            <!--begin::tab Matakuliah-->
+            <div class="card card-custom">
+                <div class="card-header card-header-tabs-line">
+                    <div class="card-toolbar">
+                        <ul class="nav nav-tabs nav-bold nav-tabs-line">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#kt_tab_pane_1_4">
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/blue-book.png"/></span>
+                                    <span class="nav-text">D3-Manajemen Informatika</span>
                                 </a>
-                                <div class="text-muted">
-                                    NIDN / NIK.: 1234567
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#kt_tab_pane_2_4">
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/orange-book.png"/></span>
+                                    <span class="nav-text">S1-Sistem Informasi</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/green-book.png"/></span>
+                                    <span class="nav-text">Prodi Sastra</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_4_1">Ilmu Bahasa Indonesia</a>
+                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_4_2">Ilmu Bahasa Arab</a>
+                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_4_3">Ilmu Bahasa Inggris</a>
                                 </div>
-                            </div>
-                        </div>
-                        <!--end::User-->
-                        <!--begin::Contact-->
-                        <div class="py-9">
-                            <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="font-weight-bold mr-2">Status Dosen:</span>
-                                <a href="#" class="text-muted text-hover-primary">Tetap</a>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="font-weight-bold mr-2">Pangkat/Gol.:</span>
-                                <span class="text-muted">Pembina /IVa</span>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <span class="font-weight-bold mr-2">Jabatan:</span>
-                                <span class="text-muted">Auditor Madya</span>
-                            </div>
-                        </div>
-                        <!--end::Contact-->
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/closed-book.png"/></span>
+                                    <span class="nav-text">Teknik</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_5_1">Teknik Informatika</a>
+                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_5_2">Teknik Industri</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <!--end::Body-->
                 </div>
-                <!--end::Profile Card-->
-            </div>
-            <!--end::Aside-->
-            <!--begin::Content-->
-            <div class="flex-row-fluid ml-lg-8">
-                <!--begin::Card-->
-                <div class="card card-custom">
-
-                    <!--begin::Card-->
-                    <div class="card card-custom example example-compact">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                Data Pegawai
-                            </h3>
-                            <div class="card-toolbar">
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="kt_tab_pane_1_4" role="tabpanel" aria-labelledby="kt_tab_pane_1_4">
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
                                 <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::add-->                                
-                                    <a href="#" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-edit"></i> Ubah</a>
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Manajemen Informatika</h5>
+                                    </span>
+                                    <!--end::Page Title-->
+                                </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="f_pegawai.php" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
                                     <!--end::add-->
-                                </div>                            
-                            </div>                                                        
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Header-->
+
+                            <!--begin: Tab Pendidikan-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: Tab Pendidikan-->
+
                         </div>
-                        <!--begin::Form-->
-                        <form class="form">
-                            <div class="card-body">
-                                <div class="form-group row mt-2">
-                                    <label class="col-xl-3 col-lg-3 col-form-label text-right">Foto Pegawai</label>
-                                    <div class="col-lg-9 col-xl-6">
-                                        <div class="image-input image-input-outline" id="kt_image_1">
-                                            <div class="image-input-wrapper" style="background-image: url(dist/assets/media/users/blank.png)"></div>
-                                            <label class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="change" data-toggle="tooltip" title="" data-original-title="Change avatar">
-                                                <i class="fa fa-pen icon-sm text-muted"></i>
-                                                <input type="file" name="" accept=".png, .jpg, .jpeg">
-                                                <input type="hidden" name="profile_avatar_remove">
-                                            </label>
-                                            <span class="btn btn-xs btn-icon btn-circle btn-white btn-hover-text-primary btn-shadow" data-action="cancel" data-toggle="tooltip" title="" data-original-title="Cancel avatar">
-                                                <i class="ki ki-bold-close icon-xs text-muted"></i>
-                                            </span>
-                                        </div>
-                                        <span class="form-text text-muted font-size-sm">File tipe yang diizinkan : jpg, jpeg. Size: 100 x 100 px.</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label class="col-3 col-form-label">N I P:</label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label class="col-3 col-form-label">N I K :</label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label class="col-3 col-form-label">Nama Lengkap :</label>
-                                    <div class="col-9 input-group-sm"> 
-                                        <input type="text" class="form-control" placeholder="" />
-                                    <span class="font-size-sm text-muted">Nama lengkap Pegawai</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label class="col-3 col-form-label">Tempat & Tanggal Lahir :</label>
-                                    <div class="col-3 input-group-sm"> 
-                                        <input type="text" class="form-control" placeholder="" />
-                                    <span class="font-size-sm text-muted">Tempat Lahir</span>
-                                    </div>
-                                    <div class="col-6 input-group-sm"> 
-                                        <input type="date" class="form-control" placeholder="" />
-                                    <span class="font-size-sm text-muted">Tanggal Lahir</span>
-                                    </div>
-                                </div>
-                                <div class="row align-items-center mb-1">
-                                    <label class="col-3 col-form-label">Jenis Kelamin</label>
-                                    <div class="col-9 input-group-sm">
-                                        <div class="radio-inline">
-                                            <label class="radio radio-outline radio-outline-2x radio-primary">
-                                            <input type="radio" name="radios" checked="checked">
-                                            <span></span>Laki - Laki</label>
-                                            <label class="radio radio-outline radio-outline-2x radio-primary">
-                                            <input type="radio" name="radios">
-                                            <span></span>Perempuan</label>
-                                        </div>
-                                    </div>                                
-                                </div>
-                                <div class="row">
-                                    <label class="col-3 col-form-label">Agama :</label>
-                                    <div class="col-9 input-group-sm">
-                                        <select class="form-control">
-                                            <option>Islam</option>
-                                            <option>Protestan</option>
-                                            <option>Katolik</option>
-                                            <option>Hindu</option>
-                                            <option>Buddha</option>
-                                            <option>Khonghucu</option>                                            
-                                        </select>
-                                        <span class="font-size-sm text-muted">Agama Pegawai</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label for="" class="col-3 col-form-label">Alamat</label>
-                                    <div class="col-9 input-group-sm"> 
-                                        <input type="text" class="form-control" placeholder="" />
-                                    <span class="font-size-sm text-muted">Alamat Pegawai</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <label for="" class="col-3 col-form-label">Nomor Kontak</label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="text" class="form-control" placehorlder=""/>
-                                        <span class="font-size-sm text-muted">Nomor kontak Pegawai</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                <label class="col-3 col-form-label">Golongan Darah</label>
-                                    <div class="col-9 input-group-sm">
-                                        <select class="form-control">
-                                            <option>-</option>
-                                            <option>A</option>
-                                            <option>B</option>
-                                            <option>O</option>
-                                            <option>AB</option>                                           
-                                        </select>
-                                        <span class="font-size-sm text-muted">Agama Pegawai</span>
-                                    </div>
-                                </div>
 
-                                <div class="row">
-                                    <label for="" class="col-3 col-form-label">Pendidikan Terakhir</label>
-                                    <div class="col-3 input-group-sm">
-                                        <select name="" class="form-control" id="">
-                                            <option>SD</option>
-                                            <option>SMP</option>
-                                            <option>SMA/Sederajat </option>
-                                            <option>S1</option>
-                                            <option>S2</option>
-                                            <option>S3</option>
-                                        </select>
-                                        <span class="font-size-sm text-muted">Pendidikan Terakhir</span>
-                                    </div>
+                        <div class="tab-pane fade" id="kt_tab_pane_2_4" role="tabpanel" aria-labelledby="kt_tab_pane_2_4">
+
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Sistem Informasi</h5>
+                                    </span>
+                                    <!--end::Page Title-->
                                 </div>
-                                <div class="row">
-                                    <label for="" class="col-3 col-form-label"> Jabatan </label>
-                                    <div class="col-3 input-group-sm">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <label for="" class="col-3 col-form-label"> Email </label>
-                                    <div class="col-9 input-group-sm">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>                          
-                                <div class="row">
-                                    <label class="col-3 col-form-label">Status :</label>
-                                    <div class="col-9 input-group-sm">
-                                        <select class="form-control">
-                                            <option>Pilih Status</option>
-                                            <option>Aktif</option>
-                                            <option>Tidak Aktif / DO</option>
-                                            <option>Cuti</option>   
-                                            <option>Lulus</option>                                     
-                                        </select>
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="card-footer">
-                                <div class="row">
-                                    <div class="col-3">
-                                    </div>
-                                    <div class="col-9">
-                                        <button type="" class="btn btn-primary mr-2">Simpan</button>
-                                        <button type="" class="btn btn-secondary">Batal</button>
-                                    </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="#" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
                                 </div>
+                                <!--end::Toolbar-->
                             </div>
-                        </form>
-                        <!--end::Form-->
+                            <!--end::Header-->
+
+                            <!--begin: Tab Matakuliah Sistem Informasi-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: Tab Matakuliah Sistem Informasi-->
+                        </div>
+                        <!--begin: Tab Ilmu Bahasa Indonesia-->
+                        <div class="tab-pane fade" id="kt_tab_pane_4_1" role="tabpanel" aria-labelledby="kt_tab_pane_4_2">
+
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Ilmu Bahasa Indonesia</h5>
+                                    </span>
+                                    <!--end::Page Title-->
+                                </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="#" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Header-->
+
+                            <!--begin: table Prodi Sastra-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: table Prodi Sastra-->
+                        </div>
+                        <!--end: Tab Ilmu Bahas Indonesia -->
+                        <!--begin: Tab Ilmu Bahasa Arab-->
+                        <div class="tab-pane fade" id="kt_tab_pane_4_2" role="tabpanel" aria-labelledby="kt_tab_pane_4_2">
+
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Ilmu Bahasa Arab</h5>
+                                    </span>
+                                    <!--end::Page Title-->
+                                </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="#" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Header-->
+
+                            <!--begin: table Prodi Sastra-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: table Prodi Sastra-->
+                        </div>
+                        <!--end: Tab Ilmu Bahas Arab -->
+                        <!--begin: Tab Ilmu Bahasa Inggris-->
+                        <div class="tab-pane fade" id="kt_tab_pane_4_3" role="tabpanel" aria-labelledby="kt_tab_pane_4_3">
+
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Ilmu Bahasa Inggris</h5>
+                                    </span>
+                                    <!--end::Page Title-->
+                                </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="#" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Header-->
+
+                            <!--begin: table Prodi Sastra-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: table Prodi Sastra-->
+                        </div>
+                        <!--end: Tab Ilmu Bahas Inggris -->
+                        <!--begin: Tab Teknik Informatika-->
+                        <div class="tab-pane fade" id="kt_tab_pane_5_1" role="tabpanel" aria-labelledby="kt_tab_pane_5_1">
+
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Teknik Informatika</h5>
+                                    </span>
+                                    <!--end::Page Title-->
+                                </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="#" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Header-->
+
+                            <!--begin: table Prodi Sastra-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: table Prodi Sastra-->
+                        </div>
+                        <!--end Tab Teknik Informatika-->
+                        <!--begin: Tab Teknik Industri-->
+                        <div class="tab-pane fade" id="kt_tab_pane_5_2" role="tabpanel" aria-labelledby="kt_tab_pane_5_2">
+
+                            <!--begin::Header-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
+                                <!--begin::Info-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::Page Title-->
+                                    <span class="font-size-sm">
+                                        <h5 class="text-muted text-hover-primary">Teknik Industri</h5>
+                                    </span>
+                                    <!--end::Page Title-->
+                                </div>
+                                <!--end::Info-->
+                                <!--begin::Toolbar-->
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <!--begin::add-->
+                                    <a href="#" class="btn btn-outline-primary btn-sm">
+                                        <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
+                                </div>
+                                <!--end::Toolbar-->
+                            </div>
+                            <!--end::Header-->
+
+                            <!--begin: table Prodi Sastra-->
+                            <table class="table table-bordered table-checkable font-size-sm" id="">
+                                <thead>
+                                    <tr class="bg-gray-100 text-center">
+                                        <th>#</th>
+                                        <th>Kode Matakuliah</th>
+                                        <th>Matakuliah</th>
+                                        <th>Semester</th>
+                                        <th>Sks</th>
+                                        <th>Status</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>KD55477</td>
+                                        <td>Pengantar Studi Islam</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: table Prodi Sastra-->
+                        </div>
+                        <!--end Tab Teknik Industri-->
                     </div>
-                    <!--end::Card-->
                 </div>
-            </div> 
-        </div>     
-
-
-        <div class="row">	
-            <div class="col-md-12">
-
-                <!--begin::tab profil-->
-                <div class="card card-custom gutter-b">
-
-
-                </div>
-                <!--end::tab profil-->
-
             </div>
-            <!--end::Card-->
+            <!--end::tab Matakuliah-->
         </div>
-        <!--end::Content-->
-    </div>
-    <!--end::row-->
 
+    </div>
+    <!--end::Container-->
 </div>
 <!--end::Entry-->
-
-
-
-
-
-
-
-<?php 
-    include('construct/footer.php');
-?>                    

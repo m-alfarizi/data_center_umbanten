@@ -128,19 +128,19 @@ include('construct/subheader.php');
                         <ul class="nav nav-tabs nav-bold nav-tabs-line">
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#kt_tab_pane_1_4">
-                                    <span class="nav-icon"><i class="fa fa-graduation-cap"></i></span>
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/blue-book.png"/></span>
                                     <span class="nav-text">D3-Manajemen Informatika</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#kt_tab_pane_2_4">
-                                    <span class="nav-icon"><i class="fa fa-graduation-cap"></i></span>
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/orange-book.png"/></span>
                                     <span class="nav-text">S1-Sistem Informasi</span>
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <span class="nav-icon"><i class="fa fa-graduation-cap"></i></span>
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/green-book.png"/></span>
                                     <span class="nav-text">Prodi Sastra</span>
                                 </a>
                                 <div class="dropdown-menu">
@@ -151,7 +151,7 @@ include('construct/subheader.php');
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <span class="nav-icon"><i class="fa fa-graduation-cap"></i></span>
+                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/closed-book.png"/></span>
                                     <span class="nav-text">Teknik</span>
                                 </a>
                                 <div class="dropdown-menu">
