@@ -107,15 +107,7 @@ include('construct/subheader.php');
                                 <div class="row">
                                     <label class="col-3 col-form-label"> Program Studi :</label>
                                     <div class="col-9 input-group-sm">
-                                        <select class="form-control">
-                                            <option>D3-Manajemen Informatika</option>
-                                            <option>S1-Sistem Informasi</option>
-                                            <option>S1-Teknik Informatika</option>
-                                            <option>S1-Teknik Industri</option>
-                                            <option>S1-Ilmu Bahasa Inggris</option>
-                                            <option>S1-Ilmu Bahasa Arab</option>
-                                            <option>S1-Ilmu Bahasa Indonesia</option>
-                                        </select>
+                                        <input type="text" class="form-control" placeholder="" />
                                     </div>
                                 </div>
                                 <!--end Prodi-->
