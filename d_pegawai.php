@@ -15,47 +15,7 @@
                     Data Pegawai
                 </h3>
             </div>
-            <!--begin::tab Matakuliah-->
-            <div class="card card-custom">
-                <div class="card-header card-header-tabs-line">
-                    <div class="card-toolbar">
-                        <ul class="nav nav-tabs nav-bold nav-tabs-line">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#kt_tab_pane_1_4">
-                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/blue-book.png"/></span>
-                                    <span class="nav-text">D3-Manajemen Informatika</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#kt_tab_pane_2_4">
-                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/orange-book.png"/></span>
-                                    <span class="nav-text">S1-Sistem Informasi</span>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/green-book.png"/></span>
-                                    <span class="nav-text">Prodi Sastra</span>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_4_1">Ilmu Bahasa Indonesia</a>
-                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_4_2">Ilmu Bahasa Arab</a>
-                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_4_3">Ilmu Bahasa Inggris</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <span class="nav-icon"><img src="https://img.icons8.com/emoji/20/000000/closed-book.png"/></span>
-                                    <span class="nav-text">Teknik</span>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_5_1">Teknik Informatika</a>
-                                    <a class="dropdown-item" data-toggle="tab" href="#kt_tab_pane_5_2">Teknik Industri</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            
                 <div class="card-body">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="kt_tab_pane_1_4" role="tabpanel" aria-labelledby="kt_tab_pane_1_4">
@@ -64,9 +24,15 @@
                                 <!--begin::Info-->
                                 <div class="d-flex align-items-center flex-wrap">
                                     <!--begin::Page Title-->
-                                    <span class="font-size-sm">
-                                        <h5 class="text-muted text-hover-primary">Manajemen Informatika</h5>
+                                    <span class="font-size-md col-">
+                                        <h5 class="text-muted  text-hover-primary">Manajemen Informatika</h5>
+                                        <input type="text" name="" id="" class="">
+                                            <button  class="btn btn-primary btn-sm-3">Search</button>
                                     </span>
+                                    <span class=" btn-group text-sm-right">
+                                            
+                                    </span> 
+                                    
                                     <!--end::Page Title-->
                                 </div>
                                 <!--end::Info-->
@@ -86,10 +52,12 @@
                                 <thead>
                                     <tr class="bg-gray-100 text-center">
                                         <th>#</th>
-                                        <th>Kode Matakuliah</th>
-                                        <th>Matakuliah</th>
-                                        <th>Semester</th>
-                                        <th>Sks</th>
+                                        <th>N I P</th>
+                                        <th>Nama Lengkap</th>
+                                        <th>Tempat </th>
+                                        <th>Tanggal Lahir</th>
+                                        <th>Nomor Kontak</th>
+                                        <th>Jabatan</th>
                                         <th>Status</th>
                                         <th>Aksi</th>
                                     </tr>
@@ -97,10 +65,12 @@
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>KD55477</td>
-                                        <td>Pengantar Studi Islam</td>
-                                        <td>1</td>
-                                        <td>3</td>
+                                        <td>0098792</td>
+                                        <td>Yudi Supriyadi</td>
+                                        <td>Lebak,</td>
+                                        <td>06 Maret 1999</td>
+                                        <td>087771022907</td>
+                                        <td>BAAK</td>
                                         <td>Aktif</td>
                                         <td>
                                             <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
@@ -111,11 +81,105 @@
                                             </a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>0098793</td>
+                                        <td>Muhamamd Alfarizi </td>
+                                        <td>Lebak,</td>
+                                        <td>07 Agustus 1999</td>
+                                        <td>089311342232</td>
+                                        <td>BAAK</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>0098794</td>
+                                        <td>Amirudin</td>
+                                        <td>Lebak,</td>
+                                        <td>06 Maret 1997</td>
+                                        <td>087778212334</td>
+                                        <td>BAAK</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>0088792</td>
+                                        <td>Rustoni</td>
+                                        <td>Lebak,</td>
+                                        <td>06 Maret 1979</td>
+                                        <td>08779271829</td>
+                                        <td>BAUK</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>0018792</td>
+                                        <td>Mamun Johari,M.Kom</td>
+                                        <td>Lebak,</td>
+                                        <td>06 Maret 1960</td>
+                                        <td>087771022907</td>
+                                        <td>BAAK</td>
+                                        <td>Aktif</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </div>
+                                    </tr>
+                                    
+                                </div>    
                                 </tbody>
+                                <hr>
+                                
                             </table>
                             <!--end: Tab Pendidikan-->
 
                         </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                        <div class="btn-toolbar mb-12" role="toolbar" aria-label="Toolbar with button groups">
+                                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                                    <button type="button" class="btn btn-secondary"><<</button>
+                                                    <button type="button" class="btn btn-secondary"><</button>
+                                                    <button type="button" class="btn btn-secondary">></button>
+                                                    <button type="button" class="btn btn-secondary">>></button>
+                                                </div>
+                                        </div>
+                                </div>
+                            </div>        
+                            
+                        </div>
+
+                        
 
                         <div class="tab-pane fade" id="kt_tab_pane_2_4" role="tabpanel" aria-labelledby="kt_tab_pane_2_4">
 
