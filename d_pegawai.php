@@ -15,7 +15,6 @@
                     Data Pegawai
                 </h3>
             </div>
-            
                 <div class="card-body">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="kt_tab_pane_1_4" role="tabpanel" aria-labelledby="kt_tab_pane_1_4">
@@ -24,26 +23,40 @@
                                 <!--begin::Info-->
                                 <div class="d-flex align-items-center flex-wrap">
                                     <!--begin::Page Title-->
-                                    <span class="font-size-md col-">
-                                        <h5 class="text-muted  text-hover-primary">Manajemen Informatika</h5>
-                                        <input type="text" name="" id="" class="">
-                                            <button  class="btn btn-primary btn-sm-3">Search</button>
+                                    <span class="font-size-md col-3">
+                                      
                                     </span>
                                     <span class=" btn-group text-sm-right">
-                                            
                                     </span> 
                                     
                                     <!--end::Page Title-->
                                 </div>
                                 <!--end::Info-->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <!--begin::add-->
+                                            <div class="input-group ">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="inputGroup-sizing-default">Pencarian</span>
+                                            </div>
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            </div>
+ 
+                                        </div>
+                                            <a href="f_pegawai.php" class="btn btn-outline-primary btn-sm">
+                                            <i class="fa fa-plus"></i> Tambah data</a>
+                                    <!--end::add-->
+                                    </div>
+                                
+                                </div>
                                 <!--begin::Toolbar-->
                                 <div class="d-flex align-items-center flex-wrap">
                                     <!--begin::add-->
-                                    <a href="f_pegawai.php" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-plus"></i> Tambah data</a>
                                     <!--end::add-->
                                 </div>
                                 <!--end::Toolbar-->
+                            
                             </div>
                             <!--end::Header-->
 
@@ -161,11 +174,10 @@
                                 
                             </table>
                             <!--end: Tab Pendidikan-->
-
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12 align-center">
                                         <div class="btn-toolbar mb-12" role="toolbar" aria-label="Toolbar with button groups">
                                                 <div class="btn-group mr-2" role="group" aria-label="First group">
                                                     <button type="button" class="btn btn-secondary"><<</button>
@@ -239,310 +251,7 @@
                             </table>
                             <!--end: Tab Matakuliah Sistem Informasi-->
                         </div>
-                        <!--begin: Tab Ilmu Bahasa Indonesia-->
-                        <div class="tab-pane fade" id="kt_tab_pane_4_1" role="tabpanel" aria-labelledby="kt_tab_pane_4_2">
-
-                            <!--begin::Header-->
-                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
-                                <!--begin::Info-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::Page Title-->
-                                    <span class="font-size-sm">
-                                        <h5 class="text-muted text-hover-primary">Ilmu Bahasa Indonesia</h5>
-                                    </span>
-                                    <!--end::Page Title-->
-                                </div>
-                                <!--end::Info-->
-                                <!--begin::Toolbar-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::add-->
-                                    <a href="#" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-plus"></i> Tambah data</a>
-                                    <!--end::add-->
-                                </div>
-                                <!--end::Toolbar-->
-                            </div>
-                            <!--end::Header-->
-
-                            <!--begin: table Prodi Sastra-->
-                            <table class="table table-bordered table-checkable font-size-sm" id="">
-                                <thead>
-                                    <tr class="bg-gray-100 text-center">
-                                        <th>#</th>
-                                        <th>Kode Matakuliah</th>
-                                        <th>Matakuliah</th>
-                                        <th>Semester</th>
-                                        <th>Sks</th>
-                                        <th>Status</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>KD55477</td>
-                                        <td>Pengantar Studi Islam</td>
-                                        <td>1</td>
-                                        <td>3</td>
-                                        <td>Aktif</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!--end: table Prodi Sastra-->
-                        </div>
-                        <!--end: Tab Ilmu Bahas Indonesia -->
-                        <!--begin: Tab Ilmu Bahasa Arab-->
-                        <div class="tab-pane fade" id="kt_tab_pane_4_2" role="tabpanel" aria-labelledby="kt_tab_pane_4_2">
-
-                            <!--begin::Header-->
-                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
-                                <!--begin::Info-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::Page Title-->
-                                    <span class="font-size-sm">
-                                        <h5 class="text-muted text-hover-primary">Ilmu Bahasa Arab</h5>
-                                    </span>
-                                    <!--end::Page Title-->
-                                </div>
-                                <!--end::Info-->
-                                <!--begin::Toolbar-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::add-->
-                                    <a href="#" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-plus"></i> Tambah data</a>
-                                    <!--end::add-->
-                                </div>
-                                <!--end::Toolbar-->
-                            </div>
-                            <!--end::Header-->
-
-                            <!--begin: table Prodi Sastra-->
-                            <table class="table table-bordered table-checkable font-size-sm" id="">
-                                <thead>
-                                    <tr class="bg-gray-100 text-center">
-                                        <th>#</th>
-                                        <th>Kode Matakuliah</th>
-                                        <th>Matakuliah</th>
-                                        <th>Semester</th>
-                                        <th>Sks</th>
-                                        <th>Status</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>KD55477</td>
-                                        <td>Pengantar Studi Islam</td>
-                                        <td>1</td>
-                                        <td>3</td>
-                                        <td>Aktif</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!--end: table Prodi Sastra-->
-                        </div>
-                        <!--end: Tab Ilmu Bahas Arab -->
-                        <!--begin: Tab Ilmu Bahasa Inggris-->
-                        <div class="tab-pane fade" id="kt_tab_pane_4_3" role="tabpanel" aria-labelledby="kt_tab_pane_4_3">
-
-                            <!--begin::Header-->
-                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
-                                <!--begin::Info-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::Page Title-->
-                                    <span class="font-size-sm">
-                                        <h5 class="text-muted text-hover-primary">Ilmu Bahasa Inggris</h5>
-                                    </span>
-                                    <!--end::Page Title-->
-                                </div>
-                                <!--end::Info-->
-                                <!--begin::Toolbar-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::add-->
-                                    <a href="#" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-plus"></i> Tambah data</a>
-                                    <!--end::add-->
-                                </div>
-                                <!--end::Toolbar-->
-                            </div>
-                            <!--end::Header-->
-
-                            <!--begin: table Prodi Sastra-->
-                            <table class="table table-bordered table-checkable font-size-sm" id="">
-                                <thead>
-                                    <tr class="bg-gray-100 text-center">
-                                        <th>#</th>
-                                        <th>Kode Matakuliah</th>
-                                        <th>Matakuliah</th>
-                                        <th>Semester</th>
-                                        <th>Sks</th>
-                                        <th>Status</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>KD55477</td>
-                                        <td>Pengantar Studi Islam</td>
-                                        <td>1</td>
-                                        <td>3</td>
-                                        <td>Aktif</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!--end: table Prodi Sastra-->
-                        </div>
-                        <!--end: Tab Ilmu Bahas Inggris -->
-                        <!--begin: Tab Teknik Informatika-->
-                        <div class="tab-pane fade" id="kt_tab_pane_5_1" role="tabpanel" aria-labelledby="kt_tab_pane_5_1">
-
-                            <!--begin::Header-->
-                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
-                                <!--begin::Info-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::Page Title-->
-                                    <span class="font-size-sm">
-                                        <h5 class="text-muted text-hover-primary">Teknik Informatika</h5>
-                                    </span>
-                                    <!--end::Page Title-->
-                                </div>
-                                <!--end::Info-->
-                                <!--begin::Toolbar-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::add-->
-                                    <a href="#" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-plus"></i> Tambah data</a>
-                                    <!--end::add-->
-                                </div>
-                                <!--end::Toolbar-->
-                            </div>
-                            <!--end::Header-->
-
-                            <!--begin: table Prodi Sastra-->
-                            <table class="table table-bordered table-checkable font-size-sm" id="">
-                                <thead>
-                                    <tr class="bg-gray-100 text-center">
-                                        <th>#</th>
-                                        <th>Kode Matakuliah</th>
-                                        <th>Matakuliah</th>
-                                        <th>Semester</th>
-                                        <th>Sks</th>
-                                        <th>Status</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>KD55477</td>
-                                        <td>Pengantar Studi Islam</td>
-                                        <td>1</td>
-                                        <td>3</td>
-                                        <td>Aktif</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!--end: table Prodi Sastra-->
-                        </div>
-                        <!--end Tab Teknik Informatika-->
-                        <!--begin: Tab Teknik Industri-->
-                        <div class="tab-pane fade" id="kt_tab_pane_5_2" role="tabpanel" aria-labelledby="kt_tab_pane_5_2">
-
-                            <!--begin::Header-->
-                            <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap mb-5">
-                                <!--begin::Info-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::Page Title-->
-                                    <span class="font-size-sm">
-                                        <h5 class="text-muted text-hover-primary">Teknik Industri</h5>
-                                    </span>
-                                    <!--end::Page Title-->
-                                </div>
-                                <!--end::Info-->
-                                <!--begin::Toolbar-->
-                                <div class="d-flex align-items-center flex-wrap">
-                                    <!--begin::add-->
-                                    <a href="#" class="btn btn-outline-primary btn-sm">
-                                        <i class="fa fa-plus"></i> Tambah data</a>
-                                    <!--end::add-->
-                                </div>
-                                <!--end::Toolbar-->
-                            </div>
-                            <!--end::Header-->
-
-                            <!--begin: table Prodi Sastra-->
-                            <table class="table table-bordered table-checkable font-size-sm" id="">
-                                <thead>
-                                    <tr class="bg-gray-100 text-center">
-                                        <th>#</th>
-                                        <th>Kode Matakuliah</th>
-                                        <th>Matakuliah</th>
-                                        <th>Semester</th>
-                                        <th>Sks</th>
-                                        <th>Status</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>KD55477</td>
-                                        <td>Pengantar Studi Islam</td>
-                                        <td>1</td>
-                                        <td>3</td>
-                                        <td>Aktif</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="#">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                            <a class="btn btn-sm btn-icon btn-bg-light btn-icon-danger btn-hover-danger" href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!--end: table Prodi Sastra-->
-                        </div>
-                        <!--end Tab Teknik Industri-->
-                    </div>
-                </div>
-            </div>
-            <!--end::tab Matakuliah-->
+                        
         </div>
 
     </div>
