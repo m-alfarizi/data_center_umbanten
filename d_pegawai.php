@@ -178,15 +178,16 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12 align-center">
-                                        <div class="btn-toolbar mb-12" role="toolbar" aria-label="Toolbar with button groups">
-                                                <div class="btn-group mr-2" role="group" aria-label="First group">
-                                                    <button type="button" class="btn btn-secondary"><<</button>
-                                                    <button type="button" class="btn btn-secondary"><</button>
-                                                    <button type="button" class="btn btn-secondary">></button>
-                                                    <button type="button" class="btn btn-secondary">>></button>
-                                                </div>
-                                        </div>
-                                </div>
+                                        <nav aria-label="Page navigation example">
+                                            <ul class="pagination">
+                                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                        </nav>
+``                                </div>
                             </div>        
                             
                         </div>
