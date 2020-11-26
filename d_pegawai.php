@@ -4,6 +4,7 @@
     include('construct/subheader.php');
 ?>
 
+
 <!--begin::Entry-->
 <div class="d-flex flex-column-fluid">
     <!--begin::Container-->
@@ -180,11 +181,11 @@
                                 <div class="col-sm-12 align-center">
                                         <nav aria-label="Page navigation example">
                                             <ul class="pagination">
-                                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Sebelumnya</a></li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Selanjutnya</a></li>
                                         </ul>
                                         </nav>
 ``                                </div>
