@@ -44,33 +44,7 @@
                                         </svg>
                                         <!--end::Svg Icon--></span><span class="menu-text">Dashboard</span></a>
                             </li>
-                            <!--begin::Referensi>
-							<li class="menu-section ">
-                                <h4 class="menu-text">Referensi</h4>
-                                <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-                            </li>
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="profil.php" class="menu-link menu-toggle"><i class="fa fa-columns menu-icon"><span></span></i><span class="menu-text">Dashboard</span></a>
-                            </li>              
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-users menu-icon"><span></span></i><span class="menu-text">Users</span></a>
-                            </li>                            
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Users Role</span></a>
-                            </li>
-                            <!--end::Referensi>
-
-                            <!--begin::Dosen>         
-                            <li class="menu-section ">
-                                <h4 class="menu-text">Dosen</h4>
-                                <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-                            </li>
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-columns menu-icon"><span></span></i><span class="menu-text">Dashboard</span></a>
-                            </li>                            
-							<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="profil.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Profil Dosen</span></a>
-							</li>
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="pengajuan.php" class="menu-link menu-toggle"><i class="fa fa-file menu-icon"><span></span></i><span class="menu-text">Teaching Material & Files</span></a>
-                            </li>                            
-                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Monitoring</span></a>
-                            </li>
-                            <end::Dosen-->
+                        
                             <!--begin::Master Data-->
                             <li class="menu-section ">
                                 <h4 class="menu-text">Master Data</h4>
@@ -89,6 +63,20 @@
                             <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="#" class="menu-link menu-toggle"><i class="fa fa-sitemap menu-icon"><span></span></i><span class="menu-text">Data Kampus Cabang</span></a>
                             </li>
                             <!--end::Master Data-->
+
+                            <!--begin::Master Report-->
+                            <li class="menu-section ">
+                                <h4 class="menu-text">Laporan</h4>
+                                <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+                            </li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="d_mahasiswa.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Laporan Data Mahasiswa</span></a>
+                            </li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="profil.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Laporan Data Dosen</span></a>
+                            </li>
+                            <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover"><a href="d_pegawai.php" class="menu-link menu-toggle"><i class="fa fa-user menu-icon"><span></span></i><span class="menu-text">Laporan Data Pegawai</span></a>
+                            </li>
+                            </li>
+                            <!--end::Master Report-->
                         </ul>
                         <!--end::Menu Nav-->
                     </div>

@@ -72,13 +72,13 @@
                 <!--begin::Info-->
                 <div class="d-flex align-items-center flex-wrap mr-2">
                     <span>
-                    <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Library</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    <nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                            Sistem Data center 
+                        </a>
+                        </nav>
                     </ol>
-                    </nav>
                     </span>
                 </div>
                 <!--end::Info-->
